@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+
+.roadmain {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../images/02.png");
+  background-position: center center;
+  background-size: cover;
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  margin-top: 16px;
+  padding-bottom: 5%;
+  /* padding-top: 10%; */
+}
+.heading {
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-family: "Poppins", sans-serif !important;
+  font-size: 2.6rem;
+  font-weight: bold;
+  padding: 3%;
+}
+
+.imgcont{
+  color: white;
+margin-left: 10%;
+
+}
+.textcont{
+  color: white;
+  font-size: 1.5rem;
+  margin-left: -5%;
+font-family: "Poppins", sans-serif !important;
+  margin-bottom: 5%;
+  margin-right: 3%;
+}
+
+.first{
+  margin-left: 100px;
+  display: flex;
+  /* font-size: 1.5rem; */
+}
+
+.firsttxt{
+  margin-left: 70px;
+  margin-right: 50px;
+  font-size: 20px;
+}
+ 
+.no{
+  /* color: #2a8ad1; */
+  font-size: 21px;
+  font-weight: bold;
+}
+
+/* Tablet Responsive */
+@media only screen and (max-width: 800px){
+  .first{
+    margin-left: 60px;
+    display: flex;
+  }
+  .firsttxt{
+    margin-left: 40px;
+    margin-right: 40px;
+  }
+}
+ 
+
+
+/* Mobile Responsive */
+@media only screen and (max-width: 600px){
+  .first{
+    margin-left: 50px; 
+    display: flex;
+  }
+
+  .firsttxt{
+    margin-left: 40px;
+    margin-right: 25px;
+  }
+ 
+}
+
+
+@media (max-width: 420px) {
+  .first{
+    margin-left: 50px; 
+    display: flex;
+  }
+
+  .firsttxt{
+    margin-left: 40px;
+    margin-right: 25px;
+    font-size: 15px;
+  }
+  .no{
+    font-size: 14px;
+  }
+ 
+    }

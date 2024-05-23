@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh; 
+}
+
+.homemain {
+  height: 100%; /* Make the main container take up full viewport height */
+  background-image: url("../images/01.png");
+  background-position: center center;
+  background-size: cover;
+  overflow: auto; /* Enable scrolling within the container if content exceeds viewport */
+}
+.deep {
+  position: relative !important;
+  display: inline-block !important;
+  padding: 22px 35px !important;
+  color: rgb(255, 255, 255) !important;
+
+  text-transform: uppercase !important;
+  transition: 0.5s !important;
+  letter-spacing: 1px !important;
+  overflow: hidden !important;
+  margin-bottom: 10% !important;
+  border: 1px solid !important;
+  border-radius: 20px !important;
+  font-size: 1.3rem !important;
+  font-family: "Poppins" !important;
+}
+.deep:hover {
+  background-image: linear-gradient(#04519e, #242663);
+  background: #242663 !important;
+  color: #050801;
+  box-shadow: 0 0 10px #242663, 0 0 20px #1b2250, 0 0 40px #242663, 0 0 80px #04519e, 0 0 120px #242663, 0 0 150px #04519e;
+}
+
+.head {
+  margin-left: 12% !important;
+  margin-right: 12% !important;
+}
+
+div,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: exo, sans-serif;
+}
+
+
+.textmain {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.5rem;
+
+  margin-top: 30% !important;
+  text-align: left;
+  color: white;
+}
+.nft1 {
+  /* margin-top: 15% !important; */
+  /* height: 300px; */
+}
+
+.nftcontainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.btton {
+  float: right;
+  margin-right: 3%;
+  margin-top: 2%;
+  background-color: #10192231 !important;
+  border: 1px solid #ffff !important;
+  border-radius: 8px;
+}
+.MuiButton-root {
+  background-color: #10192231 !important;
+  /* border: 1px solid #ffff !important; */
+}
+
+@media (max-width: 750px) {
+	.btton{
+    margin-top: 2%;
+  }
+
+}

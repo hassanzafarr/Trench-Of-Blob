@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+.discordmain {
+  background-color: #050716;
+  padding-bottom: 2%;
+  /* height: 500px; */
+}
+
+p {
+  font-family: "Poppins", sans-serif;
+  color: white;
+}
+
+.text2 {
+  /* background-color: tomato; */
+  margin-top: 10%;
+  /* width: 90%; */
+  /* font-weight: 500px; */
+  font-size: 1.5rem;
+  /* line-height: 30px; */
+}
+
+.undeline {
+  width: 70%;
+  height: 5px;
+  background-color: #2a8ad1;
+  /* border-radius: 10px; */
+}
+.linecont {
+  width: 70%;
+}
+
+.discordbtn {
+  padding: 1.2% 4% !important;
+  color: rgb(255, 255, 255) !important;
+  margin-bottom: 10% !important;
+  font-size: 1.3rem !important;
+  font-family: "Poppins" !important;
+  background: #4052dc !important;
+}
+
+.discordbtn:hover{
+  background: #40dc7c !important;
+}
+
+/* Tablet Responsive */
+@media only screen and (max-width: 800px) {
+  .discordbtn{
+    padding: 0.4em 1em;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .discordbtn{
+    padding: 5px 20px;
+  }
+}

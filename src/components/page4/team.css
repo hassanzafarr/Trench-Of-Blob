@@ -1,0 +1,139 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+
+
+.teammain { 
+    background-image: url("../images/04.png");
+    background-position: center center;
+    padding-bottom: 10%;
+    /* margin-left: 20px; */
+    padding-top: 20px;
+    /* padding-left: 30px; */
+    /* padding-right: 50px; */
+background-size:  cover;
+color: white;
+  }
+
+
+ .nftimg{
+   margin-left: 12%;
+   /* background-color: aqua; */
+   text-align: center;
+   
+ }
+
+ .nfts{
+   width: 80%;
+   height: 80%;
+   margin-top: 30%;
+   text-align: center;
+   /* background-color: rgb(139, 97, 238); */
+   /* border: 1px solid rgb(139, 97, 238); */
+   border-radius: 20px;
+ }
+
+ .teamhead{
+   font-size: 2.5rem;
+   font-family: "Poppins", sans-serif;
+   margin-top: 2%;
+ }
+
+ .nftname{
+  font-size: 1.5rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  margin-top: 40px;
+ }
+
+
+ 
+/* Small devices (landscape phones, 576px and up) */
+/* @media (max-width: 576px) { 
+
+        .txt5{
+            font-size: 23pt;
+        }
+        
+        .txt6{
+            font-size: 12pt;
+        }
+        
+        .txt7{
+            font-size: 22pt;
+        }
+     } */
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {
+  
+}
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (max-width: 900px) {
+  .nfts{
+    width:  50%;
+    height: 50%;
+    /* background-color: aliceblue; */
+    /* margin-top: 30%;
+    text-align: center;
+    border-radius: 20px; */
+  }
+  
+ .nftimg{
+  margin-left: 0%;
+  /* background-color: aqua; */
+  text-align: center;
+  
+}
+  
+ .teamhead{
+  font-size: 2.4rem;
+  /* font-weight: 600; */
+}
+
+.nftname{
+  font-size: 40px;
+  font-weight: 700px;
+  /* font-size: 3rem; */
+ }
+
+
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (max-width: 576px) {
+
+}
+
+@media (max-width: 420px) {
+  .nfts{
+    width:  50%;
+    height: 50%;
+  }
+  
+ .nftimg{
+  margin-left: 0%;
+  text-align: center;
+  
+}
+  
+ .teamhead{
+  font-size: 2.5rem;
+  
+}
+
+.nftname{
+  font-size: 30px;
+  font-weight: 500px;
+ }
+
+}

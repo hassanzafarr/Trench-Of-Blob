@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+
+.footermain{
+    /* padding-top: 1%; */
+    /* background-color: #091E3A !important; */
+    color: white;
+	
+}
+
+.footerleft{
+	/* background-color: aqua; */
+	margin-left: 2%;
+	/* padding-right: %; */
+}
+
+.footermid{
+	margin-left: -5%;
+/* background-color: rgb(78, 199, 54); */
+}
+ 
+
+.foot{
+	font-size: 1.2rem;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	/* font-family: "Poppins", sans-serif; */
+	/* font-weight: bold; */
+}
+
+
+
+@media (max-width: 420px) {
+	
+.footerleft{
+	margin-left: 0%;
+	text-align: center;
+}
+
+.footermid{
+	margin-left: 0%;
+	text-align: center;
+}
+ 
+
+.foot{
+	font-size: 1.2rem;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	/* font-family: "Poppins", sans-serif; */
+	/* font-weight: bold; */
+}
+
+
+  
+  }
