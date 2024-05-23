@@ -6,3 +6,4 @@ Unleash your creativity:
 * Discover rare and collectible Blobs
 * Connect with a passionate community of Blob enthusiasts
 * Embrace the future of digital art ownership with MetaMask
+![image](https://github.com/hassanzafarr/Trench-Of-Blob/assets/61226227/f20a2c82-8806-4fc1-b17d-efbed1e82fcf)
