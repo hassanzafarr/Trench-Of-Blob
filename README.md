@@ -1,4 +1,4 @@
-Dive into the Trench of Blob, an NFT wonderland where digital art comes to life!  This React.js-powered marketplace invites artists and collectors to explore a vibrant ecosystem of unique blobs, each with its own story to tell. 
+Dive into the Trench of Blob, an NFT wonderland where digital art comes to life!  This React.js-powered Project invites artists and collectors to explore a vibrant ecosystem of unique blobs, each with its own story to tell. 
 
 Unleash your creativity:
 
